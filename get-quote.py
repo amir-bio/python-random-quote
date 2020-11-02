@@ -5,8 +5,9 @@ def m():
   quotes = f.readlines()
   f.close()
 
-  i = random.randint(0, len(quotes) - 1)
-  print(quotes[i])
+  i1, i2 = random.sample(range(0, len(quotes)), 2)
+  print(quotes[i1])
+  print(quotes[i2])
 
 if __name__== "__main__":
   m()
