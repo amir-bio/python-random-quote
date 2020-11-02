@@ -12,3 +12,6 @@ Favor focus over features
 Avoid administrative distraction
 Design for failure
 Keep it logically awesome
+E = mc**2
+E = (pc)**2 + mc**2
+E = hf
