@@ -6,7 +6,7 @@ def m():
   f.close()
 
   i1, i2 = random.sample(range(0, len(quotes)), 2)
-  print(quotes[i1])
+  print(quotes[i1].strip())
   print(quotes[i2])
 
 if __name__== "__main__":
